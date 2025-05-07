@@ -122,11 +122,11 @@ const projects = [
 const skills = [
   {
     category: 'Software',
-    items: ['Python', 'C++', 'SQL', 'Microsoft Office (Word, Excel, PowerPoint)', 'Google Suite (Docs, Sheets, Slides)'],
+    items: ['Python', 'C', 'Numpy', 'PyTorch', 'Tensorflow', 'Pandas','SQL', 'Microsoft Office (Word, Excel, PowerPoint)', 'Google Suite (Docs, Sheets, Slides)'],
   },
   {
     category: 'Tools',
-    items: ['CUDA', 'Azure', 'PyTorch', 'Tensorflow', 'Pandas', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks'],
+    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Simulink', 'Supabase'],
   },
   {
     category: 'Hands-On',
