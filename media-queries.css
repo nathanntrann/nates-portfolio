@@ -1,0 +1,81 @@
+/* Media Queries */
+
+/* Mobile First Approach */
+@media screen and (max-width: 768px) {
+    .nav {
+        padding: 1rem;
+    }
+
+    .nav-links {
+        display: none;
+    }
+
+    .hero-title {
+        font-size: 3rem;
+    }
+
+    .hero-subtitle {
+        font-size: 1.25rem;
+    }
+
+    .section {
+        padding: 4rem 1rem;
+    }
+
+    .section-title {
+        font-size: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+    .hero-title {
+        font-size: 4rem;
+    }
+
+    .section {
+        padding: 6rem 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Desktop and larger screens */
+@media screen and (min-width: 1025px) {
+    .container {
+        padding: 0 2rem;
+    }
+
+    .projects-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Print styles */
+@media print {
+    .nav,
+    .contact-button,
+    .footer {
+        display: none;
+    }
+
+    body {
+        background: none;
+        color: black;
+    }
+
+    .section {
+        page-break-inside: avoid;
+    }
+} 
