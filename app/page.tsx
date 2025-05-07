@@ -277,7 +277,7 @@ export default function Home() {
             <h3 className="text-2xl font-bold">Contact</h3>
           </div>
           <p className="text-base text-slate mb-4">I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision. Feel free to reach out!</p>
-          <a href="mailto:your@email.com" className="inline-block bg-green text-navy px-6 py-3 rounded font-semibold hover:bg-green/80 transition-colors">Say Hello</a>
+          <a href="mailto:nathanntran@gmail.com" className="inline-block bg-green text-navy px-6 py-3 rounded font-semibold hover:bg-green/80 transition-colors">Say Hello</a>
         </motion.section>
       </main>
 
