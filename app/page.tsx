@@ -126,7 +126,8 @@ const skills = [
   },
   {
     category: 'Tools',
-    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Simulink', 'Supabase'],
+    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Simulink', 'Supabase', 'Netlify'
+    ],
   },
   {
     category: 'Hands-On',
