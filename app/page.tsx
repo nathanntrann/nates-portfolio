@@ -1,5 +1,6 @@
 'use client';
 
+import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { EnvelopeIcon, ArrowDownIcon } from '@heroicons/react/24/outline';
@@ -54,14 +55,14 @@ const certificates = [
 
 const experience = [
   {
-    company: 'Moo-sasin Jerky',
+    company: 'Moo-ssasin Jerky',
     location: 'Orange County, CA',
     title: 'Software Engineer',
     date: 'Sep 2024 – Present',
     bullets: [
       'Developed a web application using Next.js, Tailwind CSS, and TypeScript to manage inventory and orders for a small business.',
       'Implemented a RESTful API using Node.js and Express to handle backend operations and data storage.',
-      'Utilized MongoDB to store and retrieve inventory data, and implemented user authentication and authorization using JSON Web Tokens (JWT).',
+      'Utilized SQL to store and retrieve inventory data, and implemented user authentication and authorization using JSON Web Tokens (JWT).',
     ],
   },  
   {
