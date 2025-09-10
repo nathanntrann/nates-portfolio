@@ -6,7 +6,7 @@ import { useInView } from 'react-intersection-observer';
 import { EnvelopeIcon, ArrowDownIcon } from '@heroicons/react/24/outline';
 import Image from 'next/image';
 import './globals.css';
-import { FaInstagram, FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 const navLinks = [
   { name: 'About', href: '#about' },
@@ -133,18 +133,17 @@ const projects = [
 
 const skills = [
   {
-    category: 'Software',
-    items: ['Python', 'C', 'Numpy', 'PyTorch', 'Tensorflow', 'Pandas','SQL', 'Microsoft Office (Word, Excel, PowerPoint)', 'Google Suite (Docs, Sheets, Slides)'],
+    category: 'Languages/Libraries',
+    items: ['Python', 'C++', 'Numpy', 'PyTorch', 'Tensorflow', 'Pandas','SQL', 'Git', 'Hugging Face', 'Linux UX', 'SciPy', 'scikit-learn']
   },
   {
     category: 'Tools',
-    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Simulink', 'Supabase', 'Netlify'
-    ],
+    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Fusion 360', 'Simulink', 'Supabase', 'Netlify', 'Microsoft Office', 'Google Suite'],
   },
   {
     category: 'Hands-On',
-    items: ['Soldering', '3-D printing', 'electrical wiring', 'woodworking', 'Arduino', 'Power tools', 'Machining', 'CAD'],
-  },
+    items: ['Soldering', '3-D printing', 'electrical wiring', 'Arduino', 'Power tools', 'Machining']
+  }
 ];
 
 export default function Home() {
@@ -173,9 +172,6 @@ export default function Home() {
             code, and hardware.
           </p>
           <div style={{ display: "flex", gap: "1rem", marginTop: "1rem" }}>
-            <a href="https://instagram.com/natetrann22" target="_blank" rel="noopener noreferrer">
-              <FaInstagram size={30} color="#E4405F" />
-            </a>
             <a href="https://github.com/nathanntrann" target="_blank" rel="noopener noreferrer">
               <FaGithub size={30} color="#fff" />
             </a>
