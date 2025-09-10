@@ -138,7 +138,7 @@ const skills = [
   },
   {
     category: 'Tools',
-    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'SciPy', 'scikit-learn', 'Github', 'Solidworks', 'Fusion 360', 'Simulink', 'Supabase', 'Netlify', 'Microsoft Office', 'Google Suite'],
+    items: ['CUDA', 'FreeRTOS', 'Docker', 'Linux UX', 'AWS', 'Github', 'Solidworks', 'Fusion 360', 'Simulink', 'Supabase', 'Netlify', 'Microsoft Office', 'Google Suite'],
   },
   {
     category: 'Hands-On',
