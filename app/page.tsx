@@ -55,12 +55,23 @@ const certificates = [
 
 const experience = [
   {
+    company: 'Movitherm',
+    location: 'Irvine, CA',
+    title: 'Systems & Applications Engineer',
+    date: 'June 2025 – Present',
+    bullets: [
+      'Built and refined Python MLP GUIs with AI/ML frameworks (sci-kit, pytorch) for thermal data extraction and anomaly detection, reducing post-processing time by 40% and improving defect detection accuracy to 99.6% in the TSI AI Anomaly Detection system.',
+      'Designed and prototyped camera mount hardware (Fusion 360, LADWP project) that supported PLC-linked, swivel-based inspection systems, blending mechanical design with embedded AI applications.ata storage.',
+      'Developed Python/C++ deployment tooling and background automation to streamline transferring thermal camera data from to edge device gateways in Linux and Windows, improving system reliability and cutting manual setup by 25%.',
+    ],
+  },
+  {
     company: 'Moo-ssasin Jerky',
     location: 'Orange County, CA',
     title: 'Software Engineer',
     date: 'Sep 2024 – Present',
     bullets: [
-      'Developed a web application using Next.js, Tailwind CSS, and TypeScript to manage inventory and orders for a small business.',
+      'Developed a front-end web application using Next.js, Tailwind CSS, and TypeScript to manage inventory and orders for a small business.',
       'Implemented a RESTful API using Node.js and Express to handle backend operations and data storage.',
       'Utilized SQL to store and retrieve inventory data, and implemented user authentication and authorization using JSON Web Tokens (JWT).',
     ],
@@ -69,7 +80,7 @@ const experience = [
     company: 'Gen3 Battery System Development, Brelle & Co',
     location: 'Huntington Beach, CA',
     title: 'Machine Learning Engineer',
-    date: 'Sep 2024 – Present',
+    date: 'Sep 2024 – June 2025',
     bullets: [
       'Designed and deployed a machine learning system that generates MISRA-compliant embedded C code from FreeRTOS kernel data and user input, improving development speed by 35%.',
       'Fine-tuned the CodeT5 model using PyTorch and Hugging Face, achieving a training loss of 0.82 and validation loss of 0.94, with datasets structured and versioned in AWS S3.',
